@@ -20,7 +20,9 @@ function App() {
           <h1>List of projects</h1>
           {post&&<List post={post}></List>}
       </div>
-      
+      <div>
+        <p>confirm</p>
+      </div>
     </>
   )
 }
