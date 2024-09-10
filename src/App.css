@@ -1,0 +1,30 @@
+.app-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-container li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 90vw;
+  padding: 8px;
+  background-color:rgb(157, 199, 229);   
+  font-size: 20px; 
+  list-style-type: none;
+  border-bottom: 3px solid rgb(158, 158, 158);
+}
+
+.window-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgb(193, 154, 230);
+  height: 350px;
+  width: 270px;
+}
+
